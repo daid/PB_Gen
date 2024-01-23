@@ -1,0 +1,22 @@
+<style>body { margin: 0px; }</style>
+<table><tr>
+<td id="controls" style="vertical-align: top">
+Width: <input id="canvas_width" value="11.7"/>inch<br>
+Height: <input id="canvas_height" value="8.3"/>inch<br>
+DPI: <input id="dpi" value="100"><br>
+<b>Hex</b><br>
+<input id="hex_size" type="range" value=96 max=500><br>
+<input id="hex_color" type="text" value="#ffffff" data-coloris><br>
+<input id="hex_smooth_step" type="range" value=20><br>
+<input id="hex_line_width" type="range" value=95><br>
+<b>Water</b><br>
+<input id="water_light" type="text" value="#1dbbc1" data-coloris><br>
+<input id="water_dark" type="text" value="#195469" data-coloris><br>
+<input id="foam_level" type="range" value=50><br>
+<input id="foam_color" type="text" value="#ffffff" data-coloris><br>
+<td><canvas width="1024" height="1024"></canvas>
+</table>
+<script src="https://cdn.jsdelivr.net/gh/mdbassit/Coloris@latest/dist/coloris.min.js"></script>
+<script src="glsl_funcs.js"></script>
+<script src="water.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mdbassit/Coloris@latest/dist/coloris.min.css"/>
